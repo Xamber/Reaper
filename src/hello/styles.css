@@ -1,3 +1,37 @@
-.hello-message {
-
+.hello-message input[type=text],
+.hello-message input[type=date],
+.hello-message input[type=datetime],
+.hello-message input[type=number],
+.hello-message input[type=search],
+.hello-message input[type=time],
+.hello-message input[type=url],
+.hello-message input[type=email],
+textarea,
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+.hello-message input[type=text]:focus,
+.hello-message input[type=date]:focus,
+.hello-message input[type=datetime]:focus,
+.hello-message input[type=number]:focus,
+.hello-message input[type=search]:focus,
+.hello-message input[type=time]:focus,
+.hello-message input[type=url]:focus,
+.hello-message input[type=email]:focus,
+.hello-message textarea:focus,
+.hello-message select:focus{
+    -moz-box-shadow: 0 0 8px #BF6600;
+    -webkit-box-shadow: 0 0 8px #BF6600;
+    box-shadow: 0 0 8px #BF6600;
+    border: 1px solid #BF6600;
 }

@@ -1,0 +1,14 @@
+<h3 class="component-header">Diet Example</h3>
+<div class="diet">
+    <div class="product" [class.active]="p === selected" *ngFor="let p of products" (click)="onClick(p)">
+        <h3 class="product--name">{{p.name}}</h3>
+
+        <img class="product--image" src="{{ p.image }}" alt="">
+
+        <div class="product--details" *ngIf="selected == p">
+            <span>{{ p.id }}</span>
+            <span>{{ p.calories }}</span>
+        </div>
+
+    </div>
+</div>

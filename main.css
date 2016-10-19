@@ -1,9 +1,17 @@
-body {
-    font-family: "Open Sans", sans-serif;
-}
+@import "http://webfonts.ru/import/badscript.css";
 
+body {
+    font-family: 'Bad Script', sans-serif;
+    padding-top: 150px;
+}
 
 .container {
     max-width: 768px;
     margin: 0 auto;
+}
+
+.component-header {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
