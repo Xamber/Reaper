@@ -57,6 +57,11 @@ Service Example and more
 
 Because it's for example =) 
 
+# Thanks
+Icons:
+http://www.flaticon.com/packs/gastronomy-set
+
+
 # License
 
 The MIT License (MIT)
