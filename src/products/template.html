@@ -1,4 +1,6 @@
-<h3 class="component-header">Shop Component Example</h3>
+<h2 class="component-header">Products Component Example</h2>
+<span class="help-text">*ngFor, *ngIf, Classes, clickEvent</span>
+<hr>
 <div class="selected-product" *ngIf="selected">Your choise is: <b>{{ selected.name }}</b>, great!</div>
 <div class="products">
     <div class="product" [class.selected]="p === selected" *ngFor="let p of products" (click)="onClick(p)">

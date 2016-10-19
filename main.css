@@ -15,3 +15,29 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+
+.help-text{
+    text-align: center;
+    color: grey;
+    display: block;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px dotted #1a841c;
+}
+
+nav a.active {
+    border-bottom: 2px solid #1a841c;
+}
