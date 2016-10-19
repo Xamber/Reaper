@@ -1,0 +1,8 @@
+<h3 class="component-header">Shop Component Example</h3>
+<div class="selected-product" *ngIf="selected">Your choise is: <b>{{ selected.name }}</b>, great!</div>
+<div class="products">
+    <div class="product" [class.selected]="p === selected" *ngFor="let p of products" (click)="onClick(p)">
+        <img class="product--image" src="{{ p.image }}" alt="">
+        <h3 class="product--name">{{p.name}}</h3>
+    </div>
+</div>

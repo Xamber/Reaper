@@ -2,8 +2,11 @@
 
     <h1 class="component-header">Reaper - Angular 2 Boilerplate</h1>
     <hr>
-    <hello></hello>
-    <hr>
-    <diet></diet>
+
+    <nav>
+        <a routerLink="/hello" routerLinkActive="active">Hello Component</a>
+        <a routerLink="/products" routerLinkActive="active">Products Component</a>
+    </nav>
+    <router-outlet></router-outlet>
 
 </div>
