@@ -1,8 +1,61 @@
-Reaper - Angular 2 Webpack noob starter boilerplate without 2269 dependencies
+# Reaper
+Angular 2 Webpack noob starter boilerplate without 2269 dependencies
 
-**!!Develop in progress**
+## How to use
 
-_TODO: Text_
+Сlone or Fork and:
+    
+    npm install
+    
+    npm run build
+    
+    npm start
+
+## Dependencies
+
+    "@angular/common" - Angular 2
+    "@angular/compiler" - Angular 2
+    "@angular/core" - Angular 2
+    "@angular/forms" - Angular 2
+    "@angular/http" - Angular 2
+    "@angular/platform-browser" - Angular 2
+    "@angular/platform-browser-dynamic" - Angular 2
+    "@angular/router" - Angular 2
+    "@angular/upgrade" - Angular 2
+    "reflect-metadata" - Angular 2 dep
+    "rxjs" - Angular 2 dep
+    "zone.js" - Angular 2 dep
+    "@types/core-js" - type for Typescript
+    "@types/node" - type for Typescript
+    "lite-server" - server for Example
+    "raw-loader" - load html/css file in require
+    "ts-loader" - Typescript in Webpack
+    "typescript" - Typescript
+    "webpack" - Webpack for building
+
+
+## Components
+
+**Hello Component**
+
+Standart "Hello World" example with ngModel
+
+**Products Component**
+
+Example of ngFor, ngIf, Classes, clickEvent
+
+**ToDo**
+
+Service Example and more
+
+# Can I remove it?
+
+- Static Folder 
+- All Components
+- All Style Files
+- Lite Server
+
+Because it's for example =) 
 
 # License
 
