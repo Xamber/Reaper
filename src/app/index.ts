@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'angular2-app',
+    selector: 'app',
     template: require('./template.html'),
 
 })

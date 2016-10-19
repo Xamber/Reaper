@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
     styles: [require('./styles.css')]
 })
 export class HelloComponent {
-    name: string = 'Artem';
+    name: string = 'User';
 }
