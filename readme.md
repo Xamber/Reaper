@@ -44,7 +44,7 @@ Standart "Hello World" example with ngModel
 
 Example of ngFor, ngIf, Classes, clickEvent
 
-**ToDo**
+**ToDo =(**
 
 Service Example and more
 
