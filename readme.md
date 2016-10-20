@@ -38,7 +38,7 @@ Angular 2 Webpack noob starter boilerplate without 2269 dependencies
 
 **Hello Component**
 
-Standart "Hello World" example with ngModel
+Standart "Hello World" example
 
 **Products Component**
 

@@ -1,8 +1,9 @@
 <h2 class="component-header">Hello Component Example</h2>
-<span class="help-text">Output, BananaBox Form Examples</span>
+<span class="help-text">Output, BananaBox Form, Expression Examples</span>
 <hr>
 <div (click)="inc()" class="hello-message">
     <div>Hello from Component, {{ name }}</div>
+    <div>1 + 1 = <b>{{1 + 1}}</b></div>
     <div>You are clicked: {{ counter }} times</div>
     <input type='text' placeholder= "Name" [(ngModel)] = "name">
 </div>

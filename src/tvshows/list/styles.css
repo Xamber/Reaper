@@ -9,3 +9,16 @@ tv-show {
     flex: 1 1 200px;
     margin: 3px;
 }
+
+button {
+    background-color: white;
+    font-family: inherit;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 100px;
+    border: 2px solid #adadad;
+}
+
+button:hover {
+    background-color: #e4e4e4;
+}
