@@ -64,7 +64,8 @@ Because it's for example =)
 # Thanks
 Icons:
 http://flaticon.com/packs/gastronomy-set
-Serials info:
+
+Serials:
 http://myshows.me
 
 
