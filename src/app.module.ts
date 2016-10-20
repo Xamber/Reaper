@@ -5,6 +5,7 @@ import {RouterModule}   from '@angular/router';
 import {AppComponent}   from './app';
 import {HelloComponent} from './hello';
 import {ProductsComponent} from './products';
+import {TVShowsDetailComponent, TVShowsListComponent} from './tvshows';
 
 
 @NgModule({
@@ -21,10 +22,14 @@ import {ProductsComponent} from './products';
       {
         path: 'products',
         component: ProductsComponent
+      },
+      {
+        path: 'tvshows',
+        component: TVShowsListComponent
       }
     ])
   ],
-    declarations: [AppComponent, HelloComponent, ProductsComponent],
+    declarations: [AppComponent, HelloComponent, ProductsComponent, TVShowsListComponent, TVShowsDetailComponent],
     bootstrap: [AppComponent]
 })
 export class AppModule {}

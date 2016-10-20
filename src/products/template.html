@@ -1,7 +1,11 @@
 <h2 class="component-header">Products Component Example</h2>
 <span class="help-text">*ngFor, *ngIf, Classes, clickEvent</span>
 <hr>
-<div class="selected-product" *ngIf="selected">Your choise is: <b>{{ selected.name }}</b>, great!</div>
+<div class="selected-product" *ngIf="selected">
+    Your choise is: <b>{{ selected.name }}</b>,
+    <span *ngIf="selected.name === 'Steak'">very very</span>
+    great!
+</div>
 <div class="products">
     <div class="product" [class.selected]="p === selected" *ngFor="let p of products" (click)="onClick(p)">
         <img class="product--image" src="{{ p.image }}" alt="">

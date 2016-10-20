@@ -44,9 +44,9 @@ Standart "Hello World" example with ngModel
 
 Example of ngFor, ngIf, Classes, clickEvent
 
-**ToDo =(**
+**Serial Component**
 
-Service Example and more
+Service, Multi Component, Input Examples
 
 # Can I remove it?
 
@@ -59,7 +59,9 @@ Because it's for example =)
 
 # Thanks
 Icons:
-http://www.flaticon.com/packs/gastronomy-set
+http://flaticon.com/packs/gastronomy-set
+Serials info:
+http://myshows.me
 
 
 # License

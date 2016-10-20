@@ -30,11 +30,6 @@ nav {
 nav a {
     text-decoration: none;
     display: inline-block;
-}
-
-nav a {
-    text-decoration: none;
-    display: inline-block;
     border-bottom: 1px dotted #1a841c;
 }
 

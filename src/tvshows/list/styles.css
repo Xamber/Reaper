@@ -1,0 +1,11 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+tv-show {
+    flex: 1 1 200px;
+    margin: 3px;
+}

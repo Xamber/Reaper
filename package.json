@@ -1,6 +1,6 @@
 {
   "name": "reaper",
-  "version": "0.5.0",
+  "version": "0.5.5",
   "description": "Angular 2 Webpack noob starter boilerplate without 2269 dependencies",
   "main": "webpack.config.js",
   "scripts": {

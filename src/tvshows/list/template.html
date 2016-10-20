@@ -1,0 +1,9 @@
+<h2 class="component-header">TVShows Component Example</h2>
+<span class="help-text">Service, Multi Component, Input Examples</span>
+<hr>
+<div>
+    <button (click)="loadShows()">Get Rating!</button>
+    <div class="list">
+        <tv-show *ngFor="let s of tvShowsService.list" [show]="s.show"></tv-show>
+    </div>
+</div>
