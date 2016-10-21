@@ -3,6 +3,8 @@ Angular 2 Webpack noob starter boilerplate without 2269 dependencies
 
 ## How to use
 
+Update npm to 3+ version
+
 Сlone or Fork and:
     
     npm install
@@ -50,7 +52,7 @@ Service, Multi Component, Input Examples
 
 # Screen
 
-![ScreenShot](https://raw.github.com/Xamber/Reaper/master/screenshot.jpg)
+![ScreenShot](https://raw.github.com/Xamber/Reaper/master/static/screenshot.jpg)
 
 # Can I remove it?
 
