@@ -1,5 +1,5 @@
 # Reaper
-Angular 2 Webpack noob starter boilerplate without 2269 dependencies
+Angular 2 Webpack Starter Boilerplate w/o 2269 dependencies
 
 ## How to use
 
@@ -15,25 +15,25 @@ Update npm to 3+ version
 
 ## Dependencies
 
-    "@angular/common" - Angular 2
-    "@angular/compiler" - Angular 2
-    "@angular/core" - Angular 2
-    "@angular/forms" - Angular 2
-    "@angular/http" - Angular 2
-    "@angular/platform-browser" - Angular 2
-    "@angular/platform-browser-dynamic" - Angular 2
-    "@angular/router" - Angular 2
-    "@angular/upgrade" - Angular 2
-    "reflect-metadata" - Angular 2 dep
-    "rxjs" - Angular 2 dep
-    "zone.js" - Angular 2 dep
-    "@types/core-js" - type for Typescript
-    "@types/node" - type for Typescript
-    "lite-server" - server for Example
-    "raw-loader" - load html/css file in require
-    "ts-loader" - Typescript in Webpack
-    "typescript" - Typescript
-    "webpack" - Webpack for building
+    - @angular/common - Angular 2
+    - @angular/compiler - Angular 2
+    - @angular/core - Angular 2
+    - @angular/forms - Angular 2
+    - @angular/http - Angular 2
+    - @angular/platform-browser - Angular 2
+    - @angular/platform-browser-dynamic - Angular 2
+    - @angular/router - Angular 2
+    - @angular/upgrade - Angular 2
+    - reflect-metadata - Angular 2 dep
+    - rxjs - Angular 2 dep
+    - zone.js - Angular 2 dep
+    - @types/coe-js - type for Typescript
+    - @types/node - type for Typescript
+    - lite-server - server for Example
+    - raw-loader - load html/css file in require
+    - ts-loader - Typescript in Webpack
+    - typescript - Typescript
+    - webpack - Webpack for building
 
 
 ## Components
@@ -46,9 +46,9 @@ Standart "Hello World" example
 
 Example of ngFor, ngIf, Classes, clickEvent
 
-**Serial Component**
+**TVShows Component**
 
-Service, Multi Component, Input Examples
+Service, Multi Component, Input examples
 
 # Screen
 
@@ -67,7 +67,7 @@ Because it's for example =)
 Icons:
 http://flaticon.com/packs/gastronomy-set
 
-Serials:
+TVShows:
 http://myshows.me
 
 
