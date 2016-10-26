@@ -27,7 +27,7 @@ Update npm to 3+ version
     - reflect-metadata - Angular 2 dep
     - rxjs - Angular 2 dep
     - zone.js - Angular 2 dep
-    - @types/coe-js - type for Typescript
+    - @types/core-js - type for Typescript
     - @types/node - type for Typescript
     - lite-server - server for Example
     - raw-loader - load html/css file in require
