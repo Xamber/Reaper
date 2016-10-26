@@ -1,9 +1,11 @@
 # Reaper
 Angular 2 Webpack Starter Boilerplate w/o 2269 dependencies
 
+With Example =)
+
 ## How to use
 
-Update npm to 3+ version
+Update NPM to 3+ version
 
 Сlone or Fork and:
     
