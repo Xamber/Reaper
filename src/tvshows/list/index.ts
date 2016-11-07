@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { TVShowsService } from './tvshows.service'
+import {Component} from '@angular/core';
+import {TVShowsService} from './tvshows.service'
 
 @Component({
     selector: 'tv-shows',
@@ -8,8 +8,9 @@ import { TVShowsService } from './tvshows.service'
     providers: [TVShowsService],
 })
 export class TVShowsListComponent {
-    constructor(private tvShowsService: TVShowsService) { }
-    loadShows(): void  {
+    constructor(private tvShowsService: TVShowsService) {}
+
+    loadShows(): void {
         this.tvShowsService.getShows();
     }
 }

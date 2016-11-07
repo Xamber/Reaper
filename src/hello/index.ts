@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
     selector: 'hello',
@@ -12,6 +12,6 @@ export class HelloComponent {
     counter: number = 0;
 
     inc(): void {
-      this.counter ++;
+        this.counter++;
     }
 }

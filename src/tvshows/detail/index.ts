@@ -1,5 +1,5 @@
-import { Component, Input } from '@angular/core';
-import { Show } from '../list/shows'
+import {Component, Input} from '@angular/core';
+import {Show} from '../list/shows'
 
 @Component({
     selector: 'tv-show',
