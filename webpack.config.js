@@ -11,16 +11,16 @@ module.exports = {
                 test: /\.ts$/,
                 loader: "ts-loader",
                 exclude: /node_modules/
-            },{
+            }, {
                 test: /\.html/,
                 loader: 'raw'
-            },{
+            }, {
                 test: /\.css/,
                 loader: 'raw'
             }
         ]
     },
     resolve: {
-        extensions: ["", ".js", ".ts", '.html','.css']
+        extensions: ["", ".js", ".ts", '.html', '.css']
     }
 };

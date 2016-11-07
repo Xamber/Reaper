@@ -14,11 +14,16 @@
     "outDir": "dest"
   },
   "typeRoots": [
-      "../node_modules/@types"
+    "../node_modules/@types"
   ],
   "exclude": [
     "node_modules"
   ],
-  "lib": ["es6"],
-  "types": ["node", "core-js"]
+  "lib": [
+    "es6"
+  ],
+  "types": [
+    "node",
+    "core-js"
+  ]
 }

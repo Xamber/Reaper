@@ -10,9 +10,7 @@ Update NPM to 3+ version
 Сlone or Fork and:
     
     npm install
-    
     npm run build
-    
     npm start
 
 ## Dependencies
