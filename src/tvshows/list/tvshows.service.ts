@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { answer, Rating } from './shows.ts'
+import { answer, Rating } from './shows'
 
 @Injectable()
 export class TVShowsService {
