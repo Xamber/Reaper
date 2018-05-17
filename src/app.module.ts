@@ -7,7 +7,6 @@ import {HelloComponent} from './hello';
 import {ProductsComponent} from './products';
 import {TVShowsDetailComponent, TVShowsListComponent} from './tvshows';
 
-
 @NgModule({
     imports: [BrowserModule, FormsModule, RouterModule.forRoot([
       {
@@ -29,7 +28,7 @@ import {TVShowsDetailComponent, TVShowsListComponent} from './tvshows';
       }
     ])
   ],
-    declarations: [AppComponent, HelloComponent, ProductsComponent, TVShowsListComponent, TVShowsDetailComponent],
-    bootstrap: [AppComponent]
+  declarations: [AppComponent, HelloComponent, ProductsComponent, TVShowsListComponent, TVShowsDetailComponent],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}

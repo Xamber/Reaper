@@ -7,7 +7,7 @@ export class Product {
 }
 
 const ICONPATH: string = "/static/images/products/";
-
+import './styles.css';
 
 const Products: Product[] = [
     {id: 1, name: 'Apple', image: ICONPATH + 'apple.svg'},
@@ -25,7 +25,6 @@ const Products: Product[] = [
 @Component({
     selector: 'shop',
     template: require('./template.html'),
-    styles: [require('./styles.css')]
 })
 export class ProductsComponent {
     products = Products;

@@ -1,10 +1,10 @@
 import {Component} from '@angular/core';
 import {TVShowsService} from './tvshows.service'
+import './styles.css';
 
 @Component({
     selector: 'tv-shows',
     template: require('./template.html'),
-    styles: [require('./styles.css')],
     providers: [TVShowsService],
 })
 export class TVShowsListComponent {

@@ -1,4 +1,4 @@
-@import "http://webfonts.ru/import/badscript.css";
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
 
 body {
     font-family: 'Bad Script', sans-serif;

@@ -1,26 +1,23 @@
+const path = require('path');
+const webpack = require('webpack');
+
 module.exports = {
-    entry: {
-        main: "./src/main.ts"
-    },
-    output: {
-        filename: "./dest/[name].js"
-    },
-    module: {
-        loaders: [
-            {
-                test: /\.ts$/,
-                loader: "ts-loader",
-                exclude: /node_modules/
-            }, {
-                test: /\.html/,
-                loader: 'raw'
-            }, {
-                test: /\.css/,
-                loader: 'raw'
-            }
-        ]
-    },
-    resolve: {
-        extensions: ["", ".js", ".ts", '.html', '.css']
-    }
+  entry: {
+    polyfills: "./src/polyfills.ts",
+    main: "./src/main.ts"
+  },
+  module: {
+    rules: [
+      { test: /\.ts$/, use: 'ts-loader', exclude: /node_modules/ },
+      { test: /\.css$/, use: [ 'style-loader', 'css-loader' ], exclude: /node_modules/ },
+      { test: /\.html$/, loader: "html-loader" },
+    ]
+  },
+  resolve: {
+    extensions: ['.js', '.ts']
+  },
+  output: {
+    filename: "[name].js",
+    path: path.resolve(__dirname, 'dist')
+  },
 };

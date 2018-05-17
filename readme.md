@@ -1,5 +1,5 @@
 # Reaper
-Angular 2 Webpack Starter Boilerplate w/o 2269 dependencies
+Angular 6 Webpack Starter Boilerplate w/o 2269 dependencies
 
 With Example =)
 
@@ -11,29 +11,36 @@ Update NPM to 3+ version
     
     npm install
     npm run build
-    npm start
+
+    npm install -g lite-server
+    
 
 ## Dependencies
 
-    - @angular/common - Angular 2
-    - @angular/compiler - Angular 2
-    - @angular/core - Angular 2
-    - @angular/forms - Angular 2
-    - @angular/http - Angular 2
-    - @angular/platform-browser - Angular 2
-    - @angular/platform-browser-dynamic - Angular 2
-    - @angular/router - Angular 2
-    - @angular/upgrade - Angular 2
-    - reflect-metadata - Angular 2 dep
-    - rxjs - Angular 2 dep
-    - zone.js - Angular 2 dep
-    - @types/core-js - type for Typescript
-    - @types/node - type for Typescript
-    - lite-server - server for Example
-    - raw-loader - load html/css file in require
-    - ts-loader - Typescript in Webpack
-    - typescript - Typescript
-    - webpack - Webpack for building
+    "@angular/animations": "^6.0.0" - Angular 6
+    "@angular/common": "^6.0.0" - Angular 6 
+    "@angular/compiler": "^6.0.0" - Angular 6 
+    "@angular/core": "^6.0.0" - Angular 6 
+    "@angular/forms": "^6.0.0" - Angular 6 
+    "@angular/http": "^6.0.0" - Angular 6 
+    "@angular/platform-browser": "^6.0.0" - Angular 6 
+    "@angular/platform-browser-dynamic": "^6.0.0" - Angular 6 
+    "@angular/router": "^6.0.0" - Angular 6 
+    "core-js": "^2.5.6" - Angular 6 dep
+    "reflect-metadata": "^0.1.12" - Angular 6 dep
+    "rxjs": "^6.1.0" - Angular 6 dep
+    "zone.js": "^0.8.26" - Angular 6 dep
+    
+    "@types/core-js": "^0.9.43" - types
+    "@types/node": "^10.1.0" - types
+    "css-loader": "^0.28.11" - loader for webpack
+    "html-loader": "^0.5.5" - loader for webpack
+    "raw-loader": "^0.5.1" - loader for webpack
+    "style-loader": "^0.21.0" - loader for webpack
+    "ts-loader": "^4.3.0" - loader for webpack
+    "typescript": "^2.8.3"
+    "webpack": "^4.8.3"
+    "webpack-cli": "^2.1.3"
 
 
 ## Components
@@ -75,7 +82,7 @@ http://myshows.me
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Artem Filippov
+Copyright (c) 2018 Artem Filippov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
