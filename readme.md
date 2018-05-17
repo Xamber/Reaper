@@ -5,14 +5,13 @@ With Example =)
 
 ## How to use
 
-Update NPM to 3+ version
-
 Сlone or Fork and:
     
     npm install
     npm run build
 
     npm install -g lite-server
+    lite-server
     
 
 ## Dependencies
@@ -66,7 +65,6 @@ Service, Multi Component, Input examples
 - Static Folder 
 - All Components
 - All Style Files
-- Lite Server
 
 Because it's for example =) 
 
