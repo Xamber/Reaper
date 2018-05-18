@@ -1,5 +1,5 @@
 node_modules
-dest
+dist
 .idea
 npm-debug.log
 package-lock.json
